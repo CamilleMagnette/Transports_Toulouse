@@ -106,7 +106,6 @@ df_stop_area_unique = df_stop_area_unique[['cityName', 'id_stop_area', 'arret', 
 ############################################### Création de l'application Dash ###############################################
 app = dash.Dash(__name__, prevent_initial_callbacks='initial_duplicate', suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.LUX])
 app.title = 'Transports Toulouse VCA'
-app._favicon = "assets/favicon.ico"
 server = app.server
 
 ######################################### Styles CSS personnalisés #########################################
