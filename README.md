@@ -33,7 +33,7 @@ Fichier Json arrêts et horaires en temps réel
 
 ## ✅ Etapes : 
 
-<img src="https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/images/etapes.png" width=70% height=70%>
+<img src="https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/photos/etapes.png" width=70% height=70%>
 
 1) Récupération des données auprès des API ciblées : [Notebook parkings](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb) / [Notebook velos](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_velos.ipynb) / 
  [Notebook tisseo](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb)   
