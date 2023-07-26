@@ -35,9 +35,9 @@ Fichier Json arrêts et horaires en temps réel
 
 <img src="https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/images/etapes.png" width=70% height=70%>
 
-1) Récupération et nettoyage des données auprès des API ciblées : [Notebook parkings](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb) / [Notebook velos](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_velos.ipynb) / 
+1) Récupération des données auprès des API ciblées : [Notebook parkings](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb) / [Notebook velos](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_velos.ipynb) / 
  [Notebook tisseo](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb)   
-2) Consolidation, préparation des données et mise en place de l'application utilisateur avec Dash : [Notebook Dash](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/app.py)
+2) Préparation, consolidation et mise en place de l'application utilisateur avec Dash : [Notebook Dash](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/app.py)
 
 
 [🌸 PLATEFORME UTILISATEURS 🌸](https://transports-toulouse.onrender.com/)
