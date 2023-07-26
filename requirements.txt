@@ -1,0 +1,12 @@
+datetime
+babel
+dash
+pandas
+requests
+pytz
+plotly
+geopy
+pytz
+pyroutelib3
+dash_bootstrap_components
+gunicorn
