@@ -26,7 +26,7 @@ Fichier Json arrêts et horaires en temps réel
 
 - Librairies Python : Pandas - Folium – Plotly Express - Geopy
 
-- Application utilisateurs  et solution d’hébergement : Dash – GitHub - Render
+- Application utilisateurs  et solution d’hébergement : Dash (framework open-source) – GitHub - Render
 
 - Présentation projet : Power Point
 
@@ -37,7 +37,8 @@ Fichier Json arrêts et horaires en temps réel
 
 1) Récupération des données auprès des API ciblées : [Notebook parkings](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb) / [Notebook velos](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_velos.ipynb) / 
  [Notebook tisseo](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb)   
-2) Préparation, consolidation et mise en place de l'application utilisateur avec Dash : [Notebook Dash](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/app.py)
+2) Préparation, consolidation et mise en place de l'application utilisateur en local avec Dash: [Notebook Dash](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/app.py)
 
+3) Déploiement du code sur Render pour mettre en ligne la plateforme utilisateurs  
 
 [🌸 PLATEFORME UTILISATEURS 🌸](https://transports-toulouse.onrender.com/)
