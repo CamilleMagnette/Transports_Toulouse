@@ -22,29 +22,22 @@ Fichier Json arrêts et horaires en temps réel
 
 ## 📎 Méthodologie technique :
 
-1) Récupération et nettoyage des données auprès des API ciblées
+- Exploration et nettoyage des datasets : Google colab - Deepnote
 
-2) Consolidation et préparation des données pour la création de l'application utilisateur
+- Librairies Python : Pandas - Folium – Plotly Express - Geopy
 
-3) Mise en place de l'application utilisateur avec Dash
+- Application utilisateurs  et solution d’hébergement : Dash – GitHub - Render
 
-<img src="https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/images/etapes.png" width=70% height=70%>
+- Présentation projet : Power Point
 
 
 ## ✅ Etapes : 
 
-#### Semaine 1 :  
-Appropriation et première exploration des données     
-Outils principaux : Pandas, Matplotlib, jupyterLab   
+<img src="https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/images/etapes.png" width=70% height=70%>
 
-[LIEN DIAGRAMME DE RETRAVAIL DES TABLES 💪 🕺](https://drive.google.com/file/d/17TfOcP2BalAt5omnFj4_L5hGJK4bfPqt/view?usp=sharing)
-
-#### Semaines 2 et 3 : 
-Jointures, filtres, nettoyage, recherche de corrélation     
-Outils principaux : Pandas, Seaborn, DataPane, jupyterLab
-
-[LIEN ANALYSE DES DONNEES SOUS DATAPANE 💡 📊](https://cloud.datapane.com/reports/VkGQlN3/exploration-des-donn%C3%A9es/)
+1) Récupération et nettoyage des données auprès des API ciblées : [Notebook parkings](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb) / [Notebook velos](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_velos.ipynb) / 
+ [Notebook tisseo](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/notebooks/Code_consolide%CC%81_pour_DASH_TISSEO.ipynb)   
+2) Consolidation, préparation des données et mise en place de l'application utilisateur avec Dash : [Notebook Dash](https://github.com/CamilleMagnette/Transports_Toulouse/blob/main/app.py)
 
 
-
-4) [Tests de machine learning](http://localhost:8891/lab/tree/Documents/FORMATION%20DATA%20ANALYST/COURS%20DATA%20ANALYST/PROJET%202/JUPITERLAB%20NOTEBOOKS/Projet%202%20-%20Machine%20learning%20TEST%20ACTEURS.ipynb) : normalisation des données et mise en place d'un algorithme basé sur les plus proches voisins (algorithme K-nearest neighbors (kNN))
+[🌸 PLATEFORME UTILISATEURS 🌸](https://transports-toulouse.onrender.com/)
