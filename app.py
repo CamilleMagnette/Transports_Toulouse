@@ -14,6 +14,7 @@ import plotly.graph_objects as go
 import pytz
 from pyroutelib3 import Router
 import dash_bootstrap_components as dbc
+from datetime import datetime, timedelta
 
 starting_carte = px.scatter_mapbox(lat=[43.6044622], lon=[1.4442469], zoom=15, height=750, width=750, mapbox_style='open-street-map')
 carte_velo = px.scatter_mapbox(lat=[43.6044622], lon=[1.4442469], zoom=12, height=750, width=750, mapbox_style='open-street-map')
@@ -22,9 +23,10 @@ starting_carte.update_layout(margin=dict(l=0, r=0, t=0, b=30))
 carte_velo.update_layout(margin=dict(l=0, r=0, t=0, b=30))
 carte_tec.update_layout(margin=dict(l=0, r=0, t=0, b=30))
 now = datetime.now()
-formatted_date = format_datetime(now, format="cccc d MMMM yyyy, 'il est' H'h'mm", locale='fr_FR')
+# Ajouter deux heures à la date et l'heure actuelles
+now_plus_two_hours = now + timedelta(hours=2)
+formatted_date = format_datetime(now_plus_two_hours, format="cccc d MMMM yyyy, 'il est' H'h'mm", locale='fr_FR')
 formatted_date = formatted_date.replace("\955", "h")
-
 
 ###################################################  PARKINGS #####################################################
 
