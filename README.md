@@ -26,7 +26,7 @@ Fichier Json arrêts et horaires en temps réel
 
 - Librairies Python : Pandas - Folium – Plotly Express - Geopy
 
-- Application utilisateurs  et solution d’hébergement : Dash (framework open-source) – GitHub - Render
+- Application utilisateurs  et solution d’hébergement : Dash (framework open-source) sur VsCode – GitHub - Render
 
 - Présentation projet : Power Point
 
